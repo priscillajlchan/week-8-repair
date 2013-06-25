@@ -2,8 +2,9 @@ jQuery(document).ready(function($) {
 	$('submit').click(function(event) {
 		console.log("Submit button was clicked");
 	});
-	($'.form').validate({
-		rules  {
+	$('#form').validate({
+		
+		rules : {
 			username :{
 				required: true,
 				email : true
@@ -26,7 +27,7 @@ jQuery(document).ready(function($) {
 				required :"Enter your password",
 				minlength : jQuery.format("Your password is at least {0} characters long"),
 				maxlength : jQuery.format("Your password can't be longer than {0} characters")
-			
+			}
 		}
 
 	});
