@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
 				email : true
 			},
 
-			password : {
+			password :{
 				required :true,
 				minlength : 6,
 				maxlength : 10
@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
 		},
 
 		messages : {
-			username : {
+			username :{
 				required : "Come on don't be shy",
 				email : "Your email looks funny"
 			},
